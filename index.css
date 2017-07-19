@@ -16,12 +16,15 @@ li {
 }
 
 .header {
-  font-size: 45px;
+  letter-spacing: 10px;
+  padding-top: 200px;
+  font-size: 60px;
   width: 100%;
   text-align: center;
   font-family: 'Kaushan Script', cursive;
+  z-index: -1;
 }
-
+/*
 .headbar {
   width: 100%;
   background-color: white;
@@ -30,6 +33,18 @@ li {
   top: 0;
   left: 0;
   height: 180px;
+  z-index: 0;
+}*/
+
+.navscroll {
+  padding-top: 5px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 37px;
   z-index: 0;
 }
 
@@ -45,7 +60,7 @@ li {
   font-family: 'Playball', cursive;
 }
 
-.menuitems, .aboutme-header {
+.menuitems, .content-header {
   font-size: 25px;
   background-color: white;
   padding: 0 10px;
@@ -73,38 +88,36 @@ li {
   margin-right: auto;
 }
 
-/*Div's will overlap each other*/
-/*
 .AboutMe {
-  position: absolute;
+  padding-top: 50px;
+  height: 800px;
   text-align: center;
 }
 
 .aboutme-header {
-  width: 40%;
+  padding-top: 50px;
+  height: 800px;
+  text-align: center;
 }
 
 .MyProjects {
-  position: absolute;
+  padding-top: 50px;
+  height: 800px;
   text-align: center;
 }
 
 .ContactMe {
-  position: absolute;
+  padding-top: 50px;
+  height: 800px;
   text-align: center;
 }
-*/
 
 
 footer {
   width: 100%;
   background-color: gray;
   text-align: center;
-  position: fixed;
-  vertical-align: top;
   bottom: 0;
-  height: 60px;
-  z-index: 0;
 }
 
 
