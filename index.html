@@ -13,7 +13,7 @@
 </head>
 
 <body>
-<a name="top"></a>
+<a id="top" class="scroll"></a>
 
 <!--<div class="headbar">-->
 <h1 class="header"><a href="#top">Darius Yik</a></h1>
@@ -42,7 +42,7 @@
 
 <div class="content">
 
-<a name="aboutme"></a>
+<a id="aboutme" class="smooth"></a>
 <div class="AboutMe" width="100%">
   <span class="content-header">About Me</span>
   <div>
@@ -51,7 +51,7 @@
   </div>
 </div>
 
-<a name="myprojects"></a>
+<a id="myprojects" class="smooth"></a>
 <div class="MyProjects" width="100%">
   <span class="content-header">My Projects</span>
   <div>
@@ -64,7 +64,7 @@
   </div>
 </div>
 
-<a name="contactme"></a>
+<a id="contactme" class="smooth"></a>
 <div class="ContactMe" width="100%">
   <span class="content-header">Contact Me</span>
   <p>Cell Phone: <br />
@@ -84,3 +84,16 @@
 </body>
 
 </html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+<script>
+$('.smooth').on('click', function() {
+    $.smoothScroll({
+        scrollElement: $('body'),
+        scrollTarget: '#' + this.id
+    });
+
+    return false;
+});
+</script>
