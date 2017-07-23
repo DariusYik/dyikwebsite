@@ -89,6 +89,7 @@ li {
 }
 
 .AboutMe {
+  background-color: #E7E4D3;
   padding-top: 50px;
   height: 800px;
   text-align: center;
@@ -101,12 +102,14 @@ li {
 }
 
 .MyProjects {
+  background-color: #EBF4FA;
   padding-top: 50px;
   height: 800px;
   text-align: center;
 }
 
 .ContactMe {
+  background-color: #F1EFE2;
   padding-top: 50px;
   height: 800px;
   text-align: center;
